@@ -36,11 +36,11 @@
             </div>
         </div>
     </nav>
-
+    
     <!-- Header -->
     <header id="header" class="bg-purple text-white text-center py-5">
         <div class="container revelar">
-            <h1 class="display-4">¡Bienvenido a mi portafolio!</h1>
+            <h1 class="display-4 mt-5">¡Bienvenido a mi portafolio!</h1>
             <p class="lead">Soy Jorge Luis Flores Assad, un desarrollador backend.</p>
         </div>
     </header>
@@ -139,8 +139,8 @@
     <!-- Testimonios -->
     <section id="testimonios" class="bg-light py-5">
         <div class="container">
-            <h2 class="text-center mb-5 contenido-derecha">Testimonios de Clientes</h2>
-            <div class="row  contenido-izquierda">
+            <h2 class="text-center mb-5 contenido-derecha2">Testimonios de Clientes</h2>
+            <div class="row  contenido-izquierda2">
                 <div class="col-md-4 mb-4">
                     <div class="card">
                         <img src="assets/Eugenio.jpg" class="card-img-top" alt="Persona 1">
@@ -178,7 +178,7 @@
 
     <!-- Contacto -->
     <section id="contacto" class="py-5">
-        <div class="container revelar">
+        <div class="container revelar2">
             <h2 class="text-center mb-4">Contacto</h2>
             <div class="row">
                 <div class="col-4"></div>
@@ -237,6 +237,23 @@
             duration: 3000,
             origin: 'right',
             distance: '300px',
+            reset: true
+        });
+        sr.reveal('.contenido-derecha2',{
+            duration: 3000,
+            origin: 'left',
+            distance: '300px',
+            reset: true
+        });
+        sr.reveal('.contenido-izquierda2',{
+            duration: 3000,
+            origin: 'right',
+            distance: '300px',
+            reset: true
+        });
+        sr.reveal('.revelar2 ',{
+            duration: 3500,
+            origin: 'bottom',
             reset: true
         });
 
